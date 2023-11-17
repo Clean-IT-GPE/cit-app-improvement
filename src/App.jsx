@@ -5,16 +5,6 @@ import { Shop } from './pages/shop/Shop';
 import { Cart } from './pages/cart/Cart';
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 0);
-
-    return () => clearTimeout(timer); // nettoyer sur le démontage
-  }, []);
-
   return (
     <Router>
       <NavBar />
