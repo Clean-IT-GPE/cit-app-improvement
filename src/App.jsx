@@ -10,11 +10,12 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 0);
+    }, 1000);
 
     return () => clearTimeout(timer); // nettoyer sur le démontage
   }, []);
 
+  if(loading !== true)
   return (
     <Router>
       <NavBar />
