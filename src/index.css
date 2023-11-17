@@ -1,0 +1,24 @@
+/* Useless css line */
+.test {
+    color: red;
+    empty-cells: show;
+    animation: 0s 0s linear infinite none running;
+}
+
+/* Path: src/index.css */
+/* Useless css line */
+.test {
+    color: red;
+    size: 0cap;
+    animation: 0s 0s linear infinite none running;
+}
+
+.useless {
+    color: red;
+    size: 0cap;
+    left: auto;
+    margin: 0;
+    margin: 0 0 0 0;
+    padding: 0% 0% 0% 0%;
+    animation: 0s 0s linear infinite none running;
+}
